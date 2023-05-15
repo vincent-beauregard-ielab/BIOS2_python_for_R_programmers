@@ -4,6 +4,9 @@ Instructor Vincent Beauregard
 
 
 
+
+
+
 ---
 
 ## Objectives
@@ -11,6 +14,10 @@ Instructor Vincent Beauregard
 1. 👻 Read Python code and write it
 2. 👬 Understand main differences between R and Python
 3. 🧭 Orient yourself in the Python ecosystem for data science
+
+
+
+
 
 ---
 
