@@ -18,7 +18,7 @@ L'environnement du cours sera entièrement en ligne. Nous utiliserons [Colab](ht
 
 **Avant le cours**, vous devrez créer un compte Google si vous n'en avez pas déjà un. Vous devrez également installer l'application Zoom sur votre ordinateur.
 
-**Optionnel** Vous pouvez tester et explorer votre environnement Colab en ouvrant le [notebook de test](https://colab.research.google.com/github/vincent-beauregard-ielab/BIOS2_python_for_R_programmers/blob/main/0_getting_started.ipynb) et en suivant les instructions.
+**Optionnel** Vous pouvez tester et explorer votre environnement Colab en ouvrant le [notebook de test](https://colab.research.google.com/github/vincent-beauregard-ielab/BIOS2_python_for_R_programmers/blob/main/0_getting_started_with_colab.ipynb) et en suivant les instructions.
 
 ## Matériel pour le cours
 
@@ -44,7 +44,7 @@ The course environment will be entirely online. We will use [Colab](https://cola
 
 **Before the course**, you will need to create a Google account if you don't already have one. You will also need to install the Zoom application on your computer.
 
-**Optional** You can test explore your Colab environment by opening the [test notebook](https://colab.research.google.com/github/vincent-beauregard-ielab/BIOS2_python_for_R_programmers/blob/main/0_getting_started.ipynb) and following the instructions.
+**Optional** You can test explore your Colab environment by opening the [test notebook](https://colab.research.google.com/github/vincent-beauregard-ielab/BIOS2_python_for_R_programmers/blob/main/0_getting_started_with_colab.ipynb) and following the instructions.
 
 ## Material for the course
 

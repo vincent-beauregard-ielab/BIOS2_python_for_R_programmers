@@ -48,12 +48,8 @@ Python is popular 🏆
 ## Python vs R for data science
 ### What's included
 | 🔵base R | 🐍Python |
-| ---
----
-- | ---
----
-- |
-| * Data.frame<br />* `plot`<br /><br />*  `stats` | ¯\\\_(ツ)_/¯ |
+| ------- | ------- |
+| * Data.frame<br /> `plot`<br /><br /> *  `stats` | ¯\\\_(ツ)_/¯ |
 
 ---
 
