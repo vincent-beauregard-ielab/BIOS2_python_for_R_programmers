@@ -1,0 +1,58 @@
+---
+title: "Iris data analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+```{r}
+# Load the libraries
+library(stats)
+```
+
+
+```{r load data}
+# Load the dataset from CSV with base functions
+data <- read.csv('../data/iris_data.csv', header=TRUE, sep=',')
+
+# What datatype is data
+class(data)  # data.frame
+
+# First 5 rows of the dataset
+head(data)
+```
+
+```{r correlation}
+# Extract the first two columns as vectors
+x <- data[[1]]  # sepal length
+y <- data[[3]]  # petal length
+r <- cor.test(x, y)
+cat('Correlation coefficient: ', r$estimate, '\n')
+cat('p-value: ', r$p.value)
+```
+
+
+```{r linear regression}
+# Linear Regression
+
+# Create and fit the Linear Regression model
+model <- lm(y ~ x)
+
+# Make predictions
+predictions <- predict(model, newdata=data.frame(x=x))
+
+# Print the coefficients and score of the trained model
+cat('Slope:', coef(model)[2], '\n')
+cat('Intercept:', coef(model)[1], '\n')
+cat('R^2 Score:', summary(model)$r.squared)
+```
+
+```{r plot}
+# Plot the results
+plot(x, y, col='blue', main='Linear Regression - Iris Dataset', xlab='Sepal Length (cm)', ylab='Petal Length (cm)')
+lines(x, predictions, col='red')
+legend('topleft', legend=c('Actual', 'Predicted'), col=c('blue', 'red'), lty=1)
+```
