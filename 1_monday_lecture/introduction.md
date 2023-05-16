@@ -128,6 +128,13 @@ pip install numpy
 pip install matplotlib
 ```
 
+`pip` is the Python package manager. It is installed with Python.
+
+Note. In the Google colab environment, all common packages are already installed. However, you can install packages with `!pip install package_name` in a code cell.
+
+---
+## Installing and using packages
+
 ### Loading packages
 
 From script or module or notebook
